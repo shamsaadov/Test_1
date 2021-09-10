@@ -1,13 +1,142 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.main-header-div {
+  background-color: white;
 }
+.products-item-bottom-div {
+  text-align: center;
+}
+.content-main-div {
+  margin: auto;
+  text-align: center;
+}
+.title {
+  font-weight: 500;
+  font-size: 48px;
+}
+.thank-for-buy {
+  font-size: 12px;
+  opacity: 0.4;
+}
+.header-logo-div {
+  width: 180px;
+  height: 80px;
+}
+.subtitle-img-block img {
+  width: 50px;
+  height: 50px;
+}
+.about-div-for-margin {
+  margin-right: 15px;
+}
+.header-flex-box,
+.about-component-main-div {
+  width: 1180px;
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.header-search-logo {
+  height: 24px;
+  width: 24px;
+  margin-right: 15px;
+}
+.header-geo-logo {
+  height: 24px;
+  width: 24px;
+  margin-right: 15px;
+}
+.products-item-div {
+  border-radius: 8px;
+  background-color: white;
+  padding: 15px 15px;
+  text-align: left;
+}
+.product-btn-div {
+  margin: auto;
+  text-align: center;
+}
+.product-btn {
+  text-align: center;
+  background-color: white;
+  border-radius: 8px;
+  border: none;
+  line-height: 50px;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 35px auto;
+  padding: 0 10px;
+}
+.about-item-img {
+  border-radius: 15px;
+}
+.content-btn {
+  background-color: white;
+  border-radius: 8px;
+  border: none;
+  line-height: 50px;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 10px 10px;
+  padding: 0 10px;
+}
+.product-btn:hover {
+  background-color: greenyellow;
+  transition: 0.5s;
+}
+.content-btn:hover {
+  background-color: greenyellow;
+  transition: 0.5s;
+}
+.content-div-with-toggle {
+  margin-top: 15px;
+}
+span {
+  font-size: 18px;
+}
+.text-green {
+  color: green;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+}
+li {
+  margin-right: 25px;
+  font-size: 18px;
+  font-weight: 400;
+}
+body {
+  background-color: #f2f4f7;
+  margin: 0;
+}
+.details-image-div {
+  text-align: center;
+  margin: auto;
+}
+.details-sale-block{
+  position: absolute;
+  left: 70px;
+  top: -25px;
+  background-Color: black;
+  border-Radius: 100px;
+  color: white;
+  width: 50px;
+  height: 50px;
+}
+.details-main-div {
+  background-color: white;
+  border-radius: 25px;
+  width: 800px;
+  margin: 15px auto;
+}
+.details-img-item {
+  width: 120px;
+  height: 120px;
+}
+.details-position-img-div{
+  position: relative;
+  display: flex
+}
+.details-sale-middle-block{
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
